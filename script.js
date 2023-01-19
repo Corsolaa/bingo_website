@@ -19,7 +19,7 @@ grab_ball.addEventListener("click", () => {
     grab_ball.disabled = true;
     setTimeout(() => {
         grab_ball.disabled = false;
-    }, 30);
+    }, 1500);
     changeBall();
 
 });
