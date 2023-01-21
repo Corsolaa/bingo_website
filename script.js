@@ -48,6 +48,7 @@ function changeBall() {
     if (ball_number < 10) {
         ball_text = "&nbsp;" + ball_number
     }
+<<<<<<< HEAD
     if (ball_number === 69) {
         let audio = new Audio("69-mcdonalds.mp3");
         audio.volume = 0.08;
@@ -58,6 +59,9 @@ function changeBall() {
     else {
         grab_ball.innerHTML = "Pick ball - " + ball_text;
     }
+=======
+    grab_ball.innerHTML = "Pick ball - " + ball_text;
+>>>>>>> 7322714d0c2810442b9ce4be32d3ade2ce8965e0
 }
 
 function getBallNumber() {
